@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>Adapter.Adapter</OriginalElement>
+  <nodes>
+    <node x="0.0" y="0.0">Adapter.IntegerArrayManagerAdaptee</node>
+    <node x="30.399999999999977" y="127.0">Adapter.Adapter</node>
+    <node x="229.875" y="278.0">Adapter.Client</node>
+    <node x="274.0" y="0.0">Adapter.IntegerListManager</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="Adapter.Adapter" target="Adapter.IntegerListManager">
+      <point x="101.66666666666669" y="-50.5" />
+      <point x="284.56666666666666" y="102.0" />
+      <point x="341.75" y="102.0" />
+      <point x="-67.75" y="38.5" />
+    </edge>
+    <edge source="Adapter.Client" target="Adapter.IntegerListManager">
+      <point x="52.0" y="-39.0" />
+      <point x="385.875" y="253.0" />
+      <point x="477.25" y="253.0" />
+      <point x="67.75" y="38.5" />
+    </edge>
+    <edge source="Adapter.Adapter" target="Adapter.IntegerArrayManagerAdaptee">
+      <point x="-101.66666666666669" y="-50.5" />
+      <point x="81.23333333333329" y="102.0" />
+      <point x="63.5" y="102.0" />
+      <point x="-63.5" y="38.5" />
+    </edge>
+    <edge source="Adapter.Client" target="Adapter.Adapter">
+      <point x="-52.0" y="-39.0" />
+      <point x="281.875" y="253.0" />
+      <point x="182.89999999999998" y="253.0" />
+      <point x="0.0" y="50.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="111.5" y="180.5" />
+  <SelectedNodes>
+    <node>Adapter.Adapter</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
