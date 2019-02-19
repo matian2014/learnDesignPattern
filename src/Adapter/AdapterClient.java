@@ -6,13 +6,13 @@ import java.util.List;
  * Created by matia on 2019/02/18
  */
 
-public class Client {
+public class AdapterClient {
 
     List<Integer> mIntegers;
 
     public static void main(String[] args) {
 
-        Client client = new Client();
+        AdapterClient client = new AdapterClient();
 
         IntegerListManager integerListManager = new Adapter();
 
