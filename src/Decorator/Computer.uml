@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>Decorator.Computer</OriginalElement>
+  <nodes>
+    <node x="671.9175347222223" y="354.0">Decorator.HighPerformanceCPU</node>
+    <node x="952.9175347222223" y="354.0">Decorator.SSDisk</node>
+    <node x="559.4175347222223" y="148.0">Decorator.Component</node>
+    <node x="438.9175347222223" y="354.0">Decorator.OrdinaryCPU</node>
+    <node x="0.0" y="354.0">Decorator.HDDisk</node>
+    <node x="488.4175347222223" y="0.0">Decorator.Computer</node>
+    <node x="277.74652777777794" y="172.0">Decorator.BrandA</node>
+    <node x="44.74652777777794" y="172.0">Decorator.BrandB</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="Decorator.SSDisk" target="Decorator.Computer">
+      <point x="71.0" y="-51.0" />
+      <point x="1130.4175347222222" y="294.0" />
+      <point x="1004.25" y="294.0" />
+      <point x="1004.25" y="98.0" />
+      <point x="689.584201388889" y="98.0" />
+      <point x="94.66666666666674" y="39.0" />
+    </edge>
+    <edge source="Decorator.SSDisk" target="Decorator.Component">
+      <point x="0.0" y="-51.0" />
+      <point x="1059.4175347222222" y="304.0" />
+      <point x="759.1050347222223" y="304.0" />
+      <point x="93.1875" y="63.0" />
+    </edge>
+    <edge source="Decorator.HDDisk" target="Decorator.Computer">
+      <point x="-71.0" y="-51.0" />
+      <point x="35.5" y="334.0" />
+      <point x="34.24652777777794" y="334.0" />
+      <point x="34.24652777777794" y="98.0" />
+      <point x="500.2508680555556" y="98.0" />
+      <point x="-94.66666666666669" y="39.0" />
+    </edge>
+    <edge source="Decorator.BrandA" target="Decorator.Computer">
+      <point x="0.0" y="-39.0" />
+      <point x="384.24652777777794" y="118.0" />
+      <point x="547.5842013888889" y="118.0" />
+      <point x="-47.33333333333337" y="39.0" />
+    </edge>
+    <edge source="Decorator.HDDisk" target="Decorator.Component">
+      <point x="0.0" y="-51.0" />
+      <point x="106.5" y="304.0" />
+      <point x="572.7300347222223" y="304.0" />
+      <point x="-93.1875" y="63.0" />
+    </edge>
+    <edge source="Decorator.BrandB" target="Decorator.Computer">
+      <point x="0.0" y="-39.0" />
+      <point x="151.24652777777794" y="108.0" />
+      <point x="523.9175347222223" y="108.0" />
+      <point x="-71.0" y="39.0" />
+    </edge>
+    <edge source="Decorator.HighPerformanceCPU" target="Decorator.Computer">
+      <point x="87.0" y="-51.0" />
+      <point x="889.4175347222223" y="334.0" />
+      <point x="847.9739583333334" y="334.0" />
+      <point x="847.9739583333334" y="108.0" />
+      <point x="665.9175347222223" y="108.0" />
+      <point x="71.0" y="39.0" />
+    </edge>
+    <edge source="Decorator.OrdinaryCPU" target="Decorator.Computer">
+      <point x="-71.0" y="-51.0" />
+      <point x="474.4175347222223" y="294.0" />
+      <point x="501.24652777777794" y="294.0" />
+      <point x="501.24652777777794" y="128.0" />
+      <point x="571.2508680555557" y="128.0" />
+      <point x="-23.66666666666663" y="39.0" />
+    </edge>
+    <edge source="Decorator.OrdinaryCPU" target="Decorator.Component">
+      <point x="0.0" y="-51.0" />
+      <point x="545.4175347222223" y="324.0" />
+      <point x="625.9800347222223" y="324.0" />
+      <point x="-39.9375" y="63.0" />
+    </edge>
+    <edge source="Decorator.Component" target="Decorator.Computer">
+      <point x="0.0" y="-63.0" />
+      <point x="665.9175347222223" y="128.0" />
+      <point x="618.584201388889" y="128.0" />
+      <point x="23.666666666666742" y="39.0" />
+    </edge>
+    <edge source="Decorator.HighPerformanceCPU" target="Decorator.Component">
+      <point x="-87.0" y="-51.0" />
+      <point x="715.4175347222223" y="334.0" />
+      <point x="679.2300347222223" y="334.0" />
+      <point x="13.3125" y="63.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="474.5" y="266.5" />
+  <SelectedNodes>
+    <node>Decorator.Computer</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
